@@ -8,4 +8,8 @@ node {
 	stage('Integration Test') {
 		echo "Integration Testing"
 	}
+
+	stage('Integration Test') {
+		echo "Integration Testing again"
+	}
 }
