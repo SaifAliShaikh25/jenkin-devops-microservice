@@ -15,11 +15,11 @@
 // }
 
 //Declarative syntax
-pipeline{
+pipeline {
 	agent any
-		stages{
-		stage('Build'){
-			steps{
+		stages {
+		stage('Build') {
+			steps {
 				echo "My Build success"
 			}
 		}
