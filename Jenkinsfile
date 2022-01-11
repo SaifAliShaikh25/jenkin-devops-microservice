@@ -1,5 +1,3 @@
-sudo usermod -a -G root jenkins
-sudo service jenkins restart
 pipeline {
 	//agent any
 	agent { docker { image 'node:17' } }
