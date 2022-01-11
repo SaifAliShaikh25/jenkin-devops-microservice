@@ -1,3 +1,13 @@
+pipeline {
+	agent any
+	stages {
+		stage('Build') {
+			steps {
+				echo "My Build success"
+			}
+		}
+	}
+}
 // node {
 // 	stage('Build') {
 // 		echo "Build"
@@ -15,14 +25,14 @@
 // }
 
 //Declarative syntax
-pipeline {
-	agent any
-		stages {
-		stage('Build') {
-			steps {
-				echo "My Build success"
-			}
-		}
-	}
-}
+// pipeline {
+// 	agent any
+// 		stages {
+// 		stage('Build') {
+// 			steps {
+// 				echo "My Build success"
+// 			}
+// 		}
+// 	}
+// }
 
