@@ -4,6 +4,12 @@ pipeline {
 		stage('Build') {
 			steps {
 				echo "My Build success"
+				echo "Path is - $PATH"
+				echo "Build number - $env.BUILD_NUMBER"
+				echo "Build id - $env.BUILD_ID"
+				echo "Job name - $env.JOB_NAME"
+				echo "Build tag - $env.BUILD_TAG"
+				echo "Build url - $env.BUILD_URL"
 			}
 		}
 		stage('Test') {
